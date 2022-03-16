@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: gray;
+}
+header {
+    position: fixed;
+    /* header will always be on top and over*/
+    background: black;
+    top: 0;
+    left: 0;
+    z-index: 100; /*always on top (of anything <100)*/
+    width: 100%;
+    height: 60px;
+    border-bottom: 4px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pngFix{
+    height: 10px;
+    filter: invert();
+}
+
+#logo, nav ul, nav a, .search{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav, nav ul li, .search, .user {
+    display: inline-block;
+}
+
+nav{
+    /*lines elements up*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pages{
+    padding: 20px;
+    
+}
+
+.pages li{
+    padding: 10px; /*space between the pages links*/
+}
+.search{
+    padding: 0px 20px;
+}
+
+.search img{
+    position: absolute; /*puts the icon by the bar*/
+}
