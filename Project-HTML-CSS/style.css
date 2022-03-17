@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=UnifrakturMaguntia&display=swap');
 
 
 
@@ -10,7 +10,12 @@
 }
 
 body{
-    background-color: #0f0f0f;
+    background-color: #111;
+    background-image: url("assets/extra/Header.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
 }
 
 /*body *{
@@ -134,28 +139,31 @@ li{
 
 content{
     padding: 50px 5px 5px 5px;
+    font-family: "Averia Serif Libre", "Arial";
 }
-content h1{
+
+.mission{
     color: white;
     text-align: center;
     margin: 50px 30% 0 30%;
     border-bottom: 2px solid red;
+    font-family: "UnifrakturMaguntia";
+    font-size: 2em;
 
 }
 
 .text-body{
     color: white;
     margin: 25px 50px;
-    font-family: "Raleway", "Arial";
     font-size: 2em;
 }
 
 .exempli{
     border: 1px solid red;
+
     border-radius: 15px;
     text-align: center;
     margin: 10px 40%;
-    background-color: #888;
 }
 
 .text-body ol{
@@ -167,4 +175,25 @@ content h1{
 
 .text-body ol li{
     list-style-type: decimal;
+}
+
+
+.quote{
+    margin: 0px 25% 10px 25%;
+    height: 200px;
+    display: flex;
+}
+
+.quote-text{
+    overflow: auto;
+    background-color: #333;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quotehead{
+    margin: 0 25%;
+    text-align: center;
+    border-bottom: none;
+    padding: 10px;
 }
