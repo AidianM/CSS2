@@ -4,38 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>On the Prime Evils</title>
+    <title>CSS2</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <a href="#" id="logo">Logo</a>
-        <nav> <!--important for accessibility-->
-            <a href="#" id="menu-icon"></a>
-            <ul class = "pages">
-                <li><a href="#" class="current">Home</a></li>
-                <li><a href="#">Baal</a></li>
-                <li><a href="#">Diablo</a></li>
-                <li><a href="#">Mephisto</a></li>
-                <li><a href="#">Lesser</a></li>
-            </ul>
-        <div class="search">
-            <input type="text" placeholder="Search...">
-            <img src="/assets/search.png" class = "pngFix">
+        <div class="logo">
+            Logo
         </div>
-        <div class="user">
-            <ul>
-                <li>
-                    Sign In
-                </li>
-                <li>/</li>
-                <li>Find Help</li>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Play</a></li>
+                <li><a href="#">Connect</a></li>
             </ul>
-            <a href="#">Merchant</a><img src="assets/cart.png" class="pngFix">
-        </div>
         </nav>
+        <div class="search">
+            <input type="text" size="30">
+            <div class="icon-container">
+                <img src="assets/search.png" class="icons">
+            </div>
+        </div>
+        <div class="user-info">
+            <ul class="log-locate">
+                <li><a href="#">Sign In</a> / <a href="#">Dealer Locator</a></li>
+                <li id="cart"><a href="#">View Cart</a>
+                    <div class="cart-container">
+                    <img src="assets/cart.svg" class="icon-cart"></li>
+                    </div>
+            </ul>
+        </div>
     </header>
+    <content>
+        <div class="mission">
+        <h1>Holy hell, we did it.</h1>
+        </div>
+        <div class="text-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <br/>
+                <h3 class="exempli">Examples:</h3>
+                <ol>
+                    <li>Lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                    <li>sit amet</li>
+                </ol>
+                <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum.</p>
+    
+        </div>
+    </content>
+    <footer>
+        <div class="footer">
+            I made this and I regret nothing.
+        </div>
+    </footer>
     
 </body>
 </html>
