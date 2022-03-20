@@ -82,7 +82,7 @@ li{
     font-weight: bold;
 }
 .user-info li a:hover{
-    color: #12bae4;
+    color: red;
 }
 
 .nav_links li a{
@@ -90,11 +90,11 @@ li{
 }
 
 .nav_links li a:hover{
-    color: #12bae4;
+    color: red;
 }
 
 .foot_links li a:hover{
-    color: black;
+    color: #333;
 }
 
 .logo{
@@ -108,7 +108,13 @@ li{
     font-family: "UnifrakturMaguntia", Arial, Helvetica, sans-serif;
     font-weight: bolder;
     text-shadow: 2px 2px black;
-    box-shadow: 2px 2px 5px 10px black inset;
+    box-shadow: 0 0 0 0 red;
+    transition: box-shadow .5s ease-in-out;
+    cursor: default;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 20px 15px red;
 }
 
 .user-info{
@@ -156,6 +162,7 @@ footer p{
     font-family: "UnifrakturMaguntia";
     font-size: 2em;
     text-shadow: 2px 2px 8px black;
+    cursor: default;
 }
 
 content{
@@ -167,16 +174,22 @@ content{
     color: white;
     text-align: center;
     margin: 50px 30% 0 30%;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #a32219;
     font-family: "UnifrakturMaguntia";
     font-size: 2em;
+    text-shadow: 5px 5px 10px #a32219;
 
 }
 
 .text-body{
     color: white;
+    font-family: "Raleway", Courier, monospace;
     margin: 25px 50px;
     font-size: 2em;
+}
+
+.text-body a:visited{
+    color: white;
 }
 
 .exempli{
@@ -220,10 +233,29 @@ content{
 }
 
 .current{
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #a32219;
 }
 
 .current .foot_links{
     border-bottom: 2px solid #333;
 }
 
+.show-off{
+    box-shadow: 0 0 10px 5px #a32219;
+    border-radius: 8px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.show-off:hover{
+    box-shadow: 0 0 20px 10px #a32219;
+}
+
+.blast{
+    text-align: center;
+}
+
+.mail-demon {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #a32219;
+}
