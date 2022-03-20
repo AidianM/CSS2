@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=UnifrakturMaguntia&display=swap');
-
+/*Raleway, Averia Serif Libre, UnifrakturMaguntia*/
 
 
 *{
@@ -79,6 +79,9 @@ li{
     text-transform: uppercase;
     font-weight: bold;
 }
+.user-info li a:hover{
+    color: #12bae4;
+}
 
 .nav_links li a{
     color: white;
@@ -86,6 +89,10 @@ li{
 
 .nav_links li a:hover{
     color: #12bae4;
+}
+
+.foot_links li a:hover{
+    color: black;
 }
 
 .logo{
@@ -96,7 +103,7 @@ li{
     color: white;
     background-color: red;
     font-size: 3em;
-    font-family: "Raleway";
+    font-family: "UnifrakturMaguntia", Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
 
@@ -126,6 +133,7 @@ li{
 }
 
 .footer{
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -134,7 +142,15 @@ li{
     color: white;
     text-align: center;
     font-size: 1z5em;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+footer p{
+    margin-left: 10px;
+    font-family: "UnifrakturMaguntia";
+    font-size: 2em;
 }
 
 content{
@@ -196,4 +212,12 @@ content{
     text-align: center;
     border-bottom: none;
     padding: 10px;
+}
+
+.current{
+    border-bottom: 3px solid red;
+}
+
+.current .foot_links{
+    border-bottom: 2px solid #333;
 }
